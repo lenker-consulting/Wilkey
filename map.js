@@ -4296,7 +4296,7 @@ function myMap() {
     if (location[i].url == null || location[i].url == undefined)
       url = '';
     else
-      url = "<a href=" + location[i].url + " style=font-size: 14px;color:#2F394C !important; target=_blank>Read More</a>";
+      url = "<a href=" + location[i].url + " style=\"font-size: 14px;color:#2F394C !important;\" target=_blank>Read More</a>";
    var popupContent =
       "</div>" +
       '<div style="padding:0 10px;">' +
